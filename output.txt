@@ -1,0 +1,95 @@
+Start reading receipts and orders
+Receipt record	 typeWood: Oak		quantity: 150	price: 3.0is received
+Receipt record	 typeWood: Cherry		quantity: 130	price: 5.0is received
+Receipt record	 typeWood: Oak		quantity: 50	price: 6.0is received
+Receipt record	 typeWood: Cherry		quantity: 50	price: 7.0is received
+Receipt record	 typeWood: Cherry		quantity: 30	price: 8.0is received
+Receipt record	 typeWood: Oak		quantity: 40	price: 9.0is received
+The next customer will be receiving30% discount
+Receipt record	 typeWood: Cherry		quantity: 50	price: 10.0is received
+Receipt record	 typeWood: Oak		quantity: 265	price: 11.0is received
+The next customer will be receiving50% discount
+Receipt record	 typeWood: Cherry		quantity: 40	price: 13.0is received
+Receipt record	 typeWood: Oak		quantity: 75	price: 15.0is received
+Receipt record	 typeWood: Cherry		quantity: 30	price: 16.0is received
+Receipt record	 typeWood: Oak		quantity: 40	price: 18.0is received
+All receipts and orders received
+
+
+Oaks
+Next: 1	position: 0  typeWood: Oak		quantity: 150	price: 3.0
+Next: 2	position: 1  typeWood: Oak		quantity: 50	price: 6.0
+Next: 3	position: 2  typeWood: Oak		quantity: 40	price: 9.0
+Next: 4	position: 3  typeWood: Oak		quantity: 265	price: 11.0
+Next: 5	position: 4  typeWood: Oak		quantity: 75	price: 15.0
+Next: 0	position: 5  typeWood: Oak		quantity: 40	price: 18.0
+Total: 620
+
+
+Cherrys
+Next: 1	position: 0  typeWood: Cherry		quantity: 130	price: 5.0
+Next: 2	position: 1  typeWood: Cherry		quantity: 50	price: 7.0
+Next: 3	position: 2  typeWood: Cherry		quantity: 30	price: 8.0
+Next: 4	position: 3  typeWood: Cherry		quantity: 50	price: 10.0
+Next: 5	position: 4  typeWood: Cherry		quantity: 40	price: 13.0
+Next: 0	position: 5  typeWood: Cherry		quantity: 30	price: 16.0
+Total: 330
+
+
+Orders
+Next: 1	position: 0 TypeWood: Oak	quantity: 145	discount: 0
+Next: 2	position: 1 TypeWood: Cherry	quantity: 75	discount: 0
+Next: 3	position: 2 TypeWood: Oak	quantity: 180	discount: 0
+Next: 4	position: 3 TypeWood: Cherry	quantity: 50	discount: 30
+Next: 5	position: 4 TypeWood: Oak	quantity: 30	discount: 0
+Next: 6	position: 5 TypeWood: Oak	quantity: 60	discount: 0
+Next: 7	position: 6 TypeWood: Oak	quantity: 100	discount: 50
+Next: 8	position: 7 TypeWood: Cherry	quantity: 70	discount: 0
+Next: 9	position: 8 TypeWood: Oak	quantity: 175	discount: 0
+Next: 0	position: 9 TypeWood: Oak	quantity: 50	discount: 0
+Total: 935
+
+
+Start processing orders
+145 Oaks sold
+		145 at 3.0 each Sales: $435.0
+		Total Sale: $435.0
+75 Cherrys sold
+		75 at 5.0 each Sales: $375.0
+		Total Sale: $375.0
+180 Oaks sold
+		5 at 3.0 each Sales: $15.0
+
+		50 at 6.0 each Sales: $300.0
+
+		40 at 9.0 each Sales: $360.0
+
+		85 at 11.0 each Sales: $935.0
+		Total Sale: $1610.0
+50 Cherrys sold
+		50 at 5.0 each Sales: $250.0
+	this order is receiving a 30% off discount
+		Total Sale: $175.0
+30 Oaks sold
+		30 at 11.0 each Sales: $330.0
+		Total Sale: $330.0
+60 Oaks sold
+		60 at 11.0 each Sales: $660.0
+		Total Sale: $660.0
+100 Oaks sold
+		90 at 11.0 each Sales: $990.0
+
+		10 at 15.0 each Sales: $150.0
+	this order is receiving a 50% off discount
+		Total Sale: $570.0
+70 Cherrys sold
+		5 at 5.0 each Sales: $25.0
+
+		50 at 7.0 each Sales: $350.0
+
+		15 at 8.0 each Sales: $120.0
+		Total Sale: $495.0
+105 Oaks sold
+		65 at 15.0 each Sales: $975.0
+		Total Sale: $975.0
+stock of Oaks is empty
