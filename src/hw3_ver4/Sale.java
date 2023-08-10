@@ -1,4 +1,4 @@
-package hw3_ver2;
+package hw3_ver4;
 import java.util.Scanner;
 
 public class Sale extends Shipment{ 

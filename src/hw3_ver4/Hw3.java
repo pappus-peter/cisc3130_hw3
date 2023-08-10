@@ -1,12 +1,12 @@
-package hw3_ver2;
+package hw3_ver4;
 import java.io.*; 
 import java.util.*;
 
 
 public class Hw3 {
 	public static void main(String[] args) throws IOException{
-		Scanner input = new Scanner(new File("src/hw3_ver2/input.txt/"));
-		PrintWriter output = new PrintWriter(new File("src/hw3_ver2/output.txt")); 
+		Scanner input = new Scanner(new File("src/hw3_ver4/input.txt/"));
+		PrintWriter output = new PrintWriter(new File("src/hw3_ver4/output.txt")); 
 		Stock oaks = new Stock(); 
 		Stock cherrys = new Stock(); 
 		Stock sales = new Stock(); 
